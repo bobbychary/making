@@ -1,0 +1,78 @@
+/* Basic reset and styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  header {
+    padding: 6px;
+    text-align: left;
+    font-size: 1em;
+    margin-top: -89px; /* Move header up */
+  }
+  
+  .site-name {
+    color: white;
+  }
+  
+  .main-title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .profile-logo {
+    display: block;
+    margin: 0 auto;
+    width: 35px; /* Adjust size as needed */
+  }
+
+
+
+  body {
+    padding-top: 75px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Footer styling */
+.nav-footer {
+    background-color: #f8f8f8;
+    padding: 10px 0;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #000000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; /* Ensure the container also spans the full width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 10px; /* Optional: add padding to the sides if needed */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+  
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .nav-icon {
+    width: 26px;
+  }
+  
+  /* Footer text */
+  .nav-footer .nav-text {
+    font-size: 1.2em;
+  }
+  
